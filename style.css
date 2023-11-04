@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
 }
 
 h1, .button-template, .project-overlay {
@@ -93,10 +94,6 @@ h1, .button-template, .project-overlay {
 
 #see-work-btn:hover .material-icons {
     transform: rotate(90deg);
-}
-
-#portfolio {
-    background-color: #f5f5f5;
 }
 
 #portfolio .container-wrap {
@@ -253,3 +250,43 @@ h1, .button-template, .project-overlay {
 .highlight {
     color: #3282b8;
 }
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+#contact input, #contact textarea {
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: #DDD;
+    border: 1px solid #1B262C;
+}
+
+#contact textarea {
+    margin-bottom: 0px;
+}
+
+.form-btn {
+    display: inline-block;
+    background-color: #DDD;
+    border: 1px solid #1B262C;
+    padding: 0px 10px;
+    position: absolute;
+    right: 0;
+}
+
+.form-btn .button-text {
+    color: #1B262C;
+    font-size: 0.9rem
+}
+
+#form-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    margin-bottom: 40px;
+}
+
