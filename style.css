@@ -253,6 +253,7 @@ h1, .button-template, .project-overlay {
 
 #contact p {
     font-size: 1.2rem;
+    margin: 30px 0;
 }
 
 #contact input, #contact textarea {
@@ -292,11 +293,10 @@ h1, .button-template, .project-overlay {
 #footer {
     background-color: #1B262C;
     margin-top: 60px;
-    margin-bottom: -20px;
 }
 
 #social-media-wrapper {
-    padding: 20px;
+    padding: 50px;
 }
 
 #social-media-wrapper img {
@@ -311,4 +311,12 @@ h1, .button-template, .project-overlay {
 
 #footer .highlight {
     color: #ff5757;
+}
+
+.section-heading {
+    margin-top: 50px;
+}
+
+.section-wrapper {
+    padding-bottom: 50px;
 }
