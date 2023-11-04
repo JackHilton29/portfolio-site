@@ -287,6 +287,28 @@ h1, .button-template, .project-overlay {
     left: 50%;
     transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    margin-bottom: 40px;
 }
 
+#footer {
+    background-color: #1B262C;
+    margin-top: 60px;
+    margin-bottom: -20px;
+}
+
+#social-media-wrapper {
+    padding: 20px;
+}
+
+#social-media-wrapper img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+#footer p {
+    margin: 30px 0;
+    color: #BBE1FA
+}
+
+#footer .highlight {
+    color: #ff5757;
+}
