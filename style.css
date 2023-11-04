@@ -240,3 +240,16 @@ h1, .button-template, .project-overlay {
     margin-top: 40px;
     max-width: 992px;
 }
+
+#about .section-heading {
+    margin-bottom: 40px;
+}
+
+#about img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.highlight {
+    color: #3282b8;
+}
