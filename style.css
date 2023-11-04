@@ -1,0 +1,58 @@
+#home {
+    background-color: #1B262C;
+    width: 100vw;
+    height: 100vh;
+    color: #BBE1FA;
+    position: relative;
+}
+
+#home .highlight {
+    color: #ff5757;
+}
+
+#home h1 {
+    font-size: 4rem;
+    font-family: helvetica;
+    font-weight: 600;
+}
+
+#home p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
+
+.container-wrap {
+    align-self: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.button-template {
+    border: 2px solid #BBE1FA;
+    display: inline-block;
+    padding: 5px 15px;
+    position: absolute;
+    top: 16px;
+    transition-duration: 0.25s;
+}
+
+.button-template:hover {
+    background-color: #3282B8;
+}
+
+.button-template img {
+    height: 1.7rem;
+}
+
+.button-template a {
+    color: #BBE1FA;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
