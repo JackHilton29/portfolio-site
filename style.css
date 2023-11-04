@@ -35,11 +35,14 @@
 
 .button-template {
     border: 2px solid #BBE1FA;
+    transition-duration: 0.25s;
+}
+
+#get-in-touch {
     display: inline-block;
     padding: 5px 15px;
     position: absolute;
     top: 16px;
-    transition-duration: 0.25s;
 }
 
 .button-template:hover {
@@ -61,4 +64,19 @@
     #get-in-touch {
         visibility: hidden;
     }
+}
+
+#see-work-btn .material-icons {
+    position: relative;
+    top: 4px;
+    transition-duration: 0.25s;
+}
+
+#see-work-btn {
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#see-work-btn:hover .material-icons {
+    transform: rotate(90deg);
 }
